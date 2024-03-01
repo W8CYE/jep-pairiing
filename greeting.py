@@ -1,2 +1,4 @@
 def greeting(name):
-    return 'Hello Josh!'
+    if name != "Josh":
+        return "Hello Jim!"
+    return "Hello Josh!"
